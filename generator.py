@@ -11,21 +11,21 @@ while True:
   if save == "y" or save == "n":
     break
   else:
-    print("your a dumbass its TWO fucking letters pick one")
+    print("y/n")
 while True:
   try:
-    amount = input("Amount Of Codes: ")
-    amount = int(amount)
+    amount = input("Amount Of Codes: 2000")
+    amount = int(2000)
     break
   except Exception:
-    print("pick a ANY FUCKIN number U STUPID")
+    print("2000")
 while True:
   try:
     delay = input("Delay: ")
     delay = float(delay)
     break
   except Exception:
-    print("your a dumbass CHOOSE A FUCKING NUMBER HOW DO YOU MESS THAT UP")
+    print("2000")
 donegen = 0
 choices = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 for i in range(int(amount)):
